@@ -1,81 +1,117 @@
-# Turborepo starter
+# LearnSync
 
-This is an official starter Turborepo.
+## Description
 
-## Using this example
+**LearnSync** is a streamlined platform for improving the learning experience from various sources such as YouTube, locally downloaded videos, and other platforms. The application enables users to integrate popular note-taking services like Notion, Evernote, Google Keep, Microsoft OneNote, and GoodNotes, making learning distraction-free and efficient.
 
-Run the following command:
+With **LearnSync**, you can take notes while watching videos and link those notes to specific timestamps, so they are automatically organized with the videos. Whether you're on the web, desktop, or mobile, this app provides a consistent learning environment across platforms. The application even offers collaborative learning sessions with friends, note synchronization, and AI assistance for enhanced note-taking.
 
-```sh
-npx create-turbo@latest
-```
+## Key Features
 
-## What's inside?
+- **Integrated Note-Taking:**
+  - Take notes with timestamps linked to the current video/playlist.
+  - Organize notes in sync with videos and playlists.
+  - Integration with Notion, Evernote, Google Keep, Microsoft OneNote, GoodNotes, and Kindle.
+- **Cross-Platform Support:**
 
-This Turborepo includes the following packages/apps:
+  - **Website:** Learn from videos/playlists on the internet.
+  - **Desktop Application:** Supports learning from both online and local video files.
+  - **Mobile Application:** Learn from both online and local video files on the go.
+  - **Browser Extension:** Add current videos/playlists to the application directly from your browser.
 
-### Apps and Packages
+- **Collaborative Learning:**
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+  - Study with friends through real-time collaboration using **Socket.io** for real-time communication.
+  - Free accounts allow collaboration for up to 1 hour and 30 minutes.
+  - Premium accounts offer extended or unlimited collaboration depending on the plan.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- **AI-Powered Assistance:**
 
-### Utilities
+  - AI-driven note generation and suggestions based on your current video and notes.
+  - Free access to AI chat for Premium users (AI key required for custom AI services).
 
-This Turborepo has some additional tools already setup for you:
+- **Premium Plans:**
+  - Sync your notes across multiple devices.
+  - Unlock unlimited collaborative study sessions and premium AI features.
+  - Manage all your notes in one place and sync with Amazon Kindle.
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## Future Features
 
-### Build
+- **Enhanced Collaboration:**
 
-To build all apps and packages, run the following command:
+  - Expand collaborative learning sessions with breakout rooms and shared whiteboards.
+  - Integrate voice and video chat for enhanced interactive sessions.
 
-```
-cd my-turborepo
-pnpm build
-```
+- **Advanced AI Support:**
 
-### Develop
+  - Real-time AI transcription for video content, allowing users to create notes from automatically generated transcripts.
+  - AI-based video summarization to generate quick notes for each segment of a video.
 
-To develop all apps and packages, run the following command:
+- **Task and Goal Management:**
 
-```
-cd my-turborepo
-pnpm dev
-```
+  - Add a learning schedule and reminders to track progress.
+  - Sync tasks with other platforms such as Google Calendar or Todoist.
 
-### Remote Caching
+- **Gamification:**
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+  - Add a reward system for consistent learning sessions and collaboration with others.
+  - Track learning milestones and achievements.
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+- **Offline Mode:**
 
-```
-cd my-turborepo
-npx turbo login
-```
+  - Improve offline support for mobile and desktop applications to allow users to download content and access it when disconnected.
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+- **Browser Integration Enhancements:**
+  - Allow for capturing notes directly from web pages and articles (beyond just video content).
+  - Integrate with other learning platforms like Coursera, Udemy, etc., for seamless note-taking.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+## Installation and Setup
 
-```
-npx turbo link
-```
+### Prerequisites
 
-## Useful Links
+- Node.js (for frontend development)
+- Rust (for backend development)
+- Cargo (Rust package manager)
 
-Learn more about the power of Turborepo:
+### Installation
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/SOUMITRO-SAHA/learn-on-the-go.git
+   cd learn-on-the-go
+   ```
+
+### Tech Stack
+
+#### Frontend
+
+- Next.js
+- React.js
+- TailwindCSS
+
+#### Backend
+
+- Rust
+- Rocket framework
+
+#### Real-Time Collaboration
+
+- Socket.io
+
+### Contribution
+
+We welcome contributions from the community! Whether you're interested in adding new features, fixing bugs, or enhancing documentation, you're encouraged to collaborate.
+
+### How to Contribute
+
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Commit your changes (git commit -m 'Add new feature').
+Push to the branch (git push origin feature-name).
+Create a pull request.
+Feel free to open issues for discussion or ask for guidance on the direction of the project.
+
+### License
+
+This project is licensed under the MIT License.

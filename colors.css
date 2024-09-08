@@ -1,0 +1,107 @@
+/**
+ * Author: SOUMITRA SAHA
+ * GitHub: https://github.com/SOUMITRO-SAHA
+ * 
+ * ##################### [ Light Color Palette ] #####################
+ * 
+ * primary: #00262f   // p-40
+ * secondary: #12252a // s-40
+ * tertiary: #2d193c  // t-40
+ * error: #4e0002     // e-40
+ * 
+ * on primary: P-100
+ * on secondary: S-100
+ * on tertiary: T-100
+ * on error: E-100
+ * 
+ * primary container: #0e4956   // p-90
+ * secondary container: #34464b // s-90
+ * tertiary container: #503a5f  // t-90
+ * error container: #8c0009     // e-90
+ * 
+ * on primary container: P-10
+ * on secondary container: S-10
+ * on tertiary container: T-10
+ * on error container: E-10
+ * 
+ * surface dim: #d9dadb     // n-87
+ * surface: #f9f9fa         // n-98
+ * surface bright: #f9f9fa  // n-98
+ * 
+ * inverse surface: #2e3132     // n-20
+ * inverse on surface: #ffffff  // n-95
+ * inverse primary: #cbf3ff     // p-80
+ * 
+ * scrim: #000000     // n-0
+ * shadow: #000000    // n-0
+ * 
+ * surface container lowest: #ffffff  // n-100
+ * surface container low: #f3f4f4     // n-96
+ * surface container: #edeeef         // n-94
+ * surface container high: #e7e8e9    // n-92
+ * surface container highest: #e2e2e3 // n-90
+ * 
+ * on surface: #000000          // n-10
+ * on surface variants: #1d2527 // nv-30
+ * outline: #3c4447             // nv-50
+ * outline variant: #3c4447     // nv-80
+ * 
+ * 
+ * ##################### [ Dark Color Palette ] #####################
+ * 
+ * primary: #f4fcff   // p-80
+ * secondary: #f4fcff // s-80
+ * tertiary: #fff9fb  // t-80
+ * error: #fff9f9     // e-80
+ * 
+ * on primary: #000000    // p-20
+ * on secondary: #000000  // s-20
+ * on tertiary: #000000   // t-20
+ * on error : #000000     // e-20
+ * 
+ * primary container: #a0d3e2   // p-30
+ * secondary container: #baced5 // s-30
+ * tertiary container: #ddc0ed  // t-30
+ * error container: #ffbab1     // e-30
+ * 
+ * on primary container: #000000 // p-90, s-90, t-90, e-90
+ * 
+ * surface dim: #111415     // n-6
+ * surface: #111415         // n-6
+ * surface bright: #373a3a  // n-24
+ * 
+ * inverse surface: #e2e2e3     // n-90
+ * inverse on surface: #000000  // n-20
+ * inverse primary: #002f38     // p-40
+ * 
+ * scrim: #000000   // n-0
+ * shadow: #000000  // n-0
+ * 
+ * surface container lowest: #0c0f0f  // n-4
+ * surface container low: #191c1d     // n-10
+ * surface container: #1d2021         // n-12
+ * surface container high: #282a2b    // n-17
+ * surface container highest: #333536 // n-24
+ * 
+ * on surface: #ffffff          // n-90
+ * on surface variants: #f4fcff // nv-90
+ * outline: #c4cccf             // nv-60
+ * outline variant: #c4cccf     // nv-30
+ * 
+ * ##################### [ Colors ] #####################
+ * primary: #92C5D4
+ * secondary: #889296
+ * tertiary: #8E8FA2
+ * error: #FF5449
+ * neutral: #909191
+ * neutral variant: #8E9193
+ */
+
+:root {
+  --primary-theme-color: #92c5d4;
+  --secondary-theme-color: #889296;
+  --tertiary-theme-color: #8e8fa2;
+  --error-theme-color: #ff5449;
+  --neutral-theme-color: #909191;
+  --neutral-theme-color: #8e9193;
+}
