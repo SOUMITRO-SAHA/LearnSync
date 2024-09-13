@@ -1,0 +1,1 @@
+import { LOCALS } from '@/locales';

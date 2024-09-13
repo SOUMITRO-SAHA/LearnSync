@@ -1,0 +1,87 @@
+{
+    "buttons": {
+        "save": "সেভ করুন",
+        "cancel": "বাতিল করুন",
+        "submit": "জমা দিন",
+        "delete": "মুছে ফেলুন",
+        "edit": "সম্পাদনা করুন",
+        "create": "সৃষ্টি করুন",
+        "search": "খুঁজুন",
+        "next": "পরবর্তী",
+        "previous": "পূর্ববর্তী",
+        "login": "লগইন করুন",
+        "signup": "সাইন আপ করুন",
+        "logout": "লগ আউট করুন"
+    },
+    "errors": {
+        "required": "এই ফিল্ডটি প্রয়োজনীয়।",
+        "invalidEmail": "অবৈধ ইমেল ঠিকানা।",
+        "passwordMismatch": "পাসওয়ার্ড মেলে না।",
+        "serverError": "সার্ভারে একটি ত্রুটি ঘটেছে। পরে আবার চেষ্টা করুন।",
+        "unauthorized": "আপনি এই সম্পদ অ্যাক্সেস করার অনুমতিপ্রাপ্ত নন।",
+        "notFound": "সম্পদ পাওয়া যায়নি।"
+    },
+    "404": {
+        "pageNotFound": "৪০৪ - পৃষ্ঠা পাওয়া যায়নি",
+        "back": "আমার কনটেন্টে ফিরুন",
+        "signOut": "আরেকটি অ্যাকাউন্টে সাইন ইন করুন"
+    },
+    "phrases": {
+        "welcome": "স্বাগতম",
+        "loading": "লোডিং...",
+        "success": "সফল!",
+        "error": "ত্রুটি",
+        "yes": "হ্যাঁ",
+        "no": "না",
+        "ok": "ঠিক আছে",
+        "cancel": "বাতিল করুন",
+        "pleaseWait": "কিছুক্ষণ অপেক্ষা করুন..."
+    },
+    "dateFormats": {
+        "short": "MM/DD/YYYY",
+        "long": "MMMM D, YYYY"
+    },
+    "timeFormats": {
+        "short": "hh:mm",
+        "long": "hh:mm:ss"
+    },
+    "navigation": {
+        "home": "হোম",
+        "about": "সম্পর্কে",
+        "contact": "যোগাযোগ",
+        "help": "সাহায্য",
+        "settings": "সেটিংস",
+        "profile": "প্রোফাইল",
+        "search": "খুঁজুন",
+        "back": "পিছনে",
+        "forward": "আগামী",
+        "refresh": "রিফ্রেশ করুন"
+    },
+    "currency": {
+        "usd": "USD",
+        "eur": "EUR",
+        "inr": "INR",
+        "gbp": "GBP"
+    },
+    "socialMedia": {
+        "facebook": "ফেসবুক",
+        "twitter": "টুইটার",
+        "instagram": "ইনস্টাগ্রাম",
+        "linkedin": "লিঙ্কডইন",
+        "youtube": "ইউটিউব"
+    },
+    "formLabels": {
+        "firstName": "প্রথম নাম",
+        "lastName": "শেষ নাম",
+        "email": "ইমেইল",
+        "password": "পাসওয়ার্ড",
+        "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+        "address": "ঠিকানা",
+        "city": "শহর",
+        "state": "রাজ্য",
+        "country": "দেশ",
+        "postalCode": "পোস্টাল কোড",
+        "phoneNumber": "ফোন নম্বর",
+        "dateOfBirth": "জন্ম তারিখ"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "buttons": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "submit": "Submit",
+        "delete": "Delete",
+        "edit": "Edit",
+        "create": "Create",
+        "search": "Search",
+        "next": "Next",
+        "previous": "Previous",
+        "login": "Login",
+        "signup": "Sign Up",
+        "logout": "Logout"
+    },
+    "errors": {
+        "required": "This field is required.",
+        "invalidEmail": "Invalid email address.",
+        "passwordMismatch": "Passwords do not match.",
+        "serverError": "An error occurred on the server. Please try again later.",
+        "unauthorized": "You are not authorized to access this resource.",
+        "notFound": "Resource not found."
+    },
+    "404": {
+        "pageNotFound": "404 - Page not found",
+        "back": "Back to my Content",
+        "signOut": "Sign in to another account"
+    },
+    "phrases": {
+        "welcome": "Welcome",
+        "loading": "Loading...",
+        "success": "Success!",
+        "error": "Error",
+        "yes": "Yes",
+        "no": "No",
+        "ok": "OK",
+        "cancel": "Cancel",
+        "pleaseWait": "Please wait..."
+    },
+    "dateFormats": {
+        "short": "MM/DD/YYYY",
+        "long": "MMMM D, YYYY"
+    },
+    "timeFormats": {
+        "short": "hh:mm",
+        "long": "hh:mm:ss"
+    },
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "help": "Help",
+        "settings": "Settings",
+        "profile": "Profile",
+        "search": "Search",
+        "back": "Back",
+        "forward": "Forward",
+        "refresh": "Refresh"
+    },
+    "currency": {
+        "usd": "USD",
+        "eur": "EUR",
+        "inr": "INR",
+        "gbp": "GBP"
+    },
+    "socialMedia": {
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube"
+    },
+    "formLabels": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "address": "Address",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "postalCode": "Postal Code",
+        "phoneNumber": "Phone Number",
+        "dateOfBirth": "Date of Birth"
+    }
+}
